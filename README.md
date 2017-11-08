@@ -23,7 +23,7 @@ The example server exposes two endpoints:
 
 If you look at the source code (`index.js`), you will see that the `id` and `action` params have white-listed and black-listed values for different use-cases. The goal of this example is to demonstrate how a developer might enumerate these rules at the framework level, instead of using many conditional statements throughout their application. It is possible to implement more complex white-/black-listing rules than simple enumerations, but that is out of scope for this example.
 
-We define several functions that allow the creation of routes fragment parsers instead of using traditional Express/Sinatra syntax. These functions are:
+We define several functions that allow the creation of route fragment parsers instead of using traditional Express/Sinatra syntax. These functions are:
 
 1. `string`
 2. `anyParam`
