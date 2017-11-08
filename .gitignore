@@ -1,0 +1,8 @@
+*.swp
+*.tmp
+*.DS_Store
+
+.tmp/
+.build/
+
+node_modules/

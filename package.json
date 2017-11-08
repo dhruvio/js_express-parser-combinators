@@ -1,0 +1,15 @@
+{
+  "name": "express-parser-combinators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhruv Dang",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "parsimmon": "^1.6.2"
+  }
+}
