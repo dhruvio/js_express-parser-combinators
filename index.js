@@ -82,6 +82,12 @@ const handleRoute = (parser, onSuccessfulParse) => {
 //set up express app
 const app = express();
 
+//log requests
+app.use((req, res, next) => {
+  log(req.url);
+  next();
+});
+
 //create parsers for admin and non-admin IDs
 //in this example, we assume we are building routes
 //for users that may have a pre-defined admin ID
